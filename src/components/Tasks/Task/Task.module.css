@@ -1,0 +1,31 @@
+.Task {
+  width: 400px;
+  height: 50px;
+  background-color: rgb(226, 226, 226);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
+  transform: skewX(-10deg);
+  display: flex;
+  margin: 30px auto;
+}
+
+.ColouredSide {
+  width: 10px;
+}
+
+.TaskContent {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.DeleteBtn {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: orangered;
+  color: #fff;
+  transform: skewX(10deg);
+  cursor: pointer;
+  border: none;
+}

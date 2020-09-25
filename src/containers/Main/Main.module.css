@@ -1,0 +1,11 @@
+.Main {
+  width: 1000px;
+  height: 100vh;
+  margin: 20px auto;
+  background-color: rgb(238, 238, 238);
+  text-align: center;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
